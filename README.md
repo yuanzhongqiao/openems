@@ -1,91 +1,66 @@
-[![Build Status](https://github.com/OpenEMS/openems/actions/workflows/build.yml/badge.svg)](https://github.com/OpenEMS/openems/actions/workflows/build.yml)
-[![Gitpod live-demo](https://img.shields.io/badge/Gitpod-live--demo-blue?logo=gitpod)](https://gitpod.io/#https://github.com/OpenEMS/openems/tree/main)
-[![Cite via Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.4440884.svg)](https://doi.org/10.5281/zenodo.4440883)
-
-<h1 align="center">
-  <img src="./doc/modules/ROOT/assets/images/OpenEMS-Logo.png" alt="the Feneco - OpenEMS Logo" width="200"></a>
-  <br/>Open Source Energy Management System
-</h1>
-
-OpenEMS - the Open Source Energy Management System - is a modular platform for energy management applications. It was developed around the requirements of monitoring, controlling, and integrating energy storage together with renewable energy sources and complementary devices and services like electric vehicle charging stations, heat-pumps, electrolysers, time-of-use electricity tariffs and more.
-
-If you plan to use OpenEMS for your own projects, please consider joining the [OpenEMS Association e.V.](https://openems.io/association), a network of universities, hardware manufacturers, software companies as well as commercial and private owners, and get in touch in the [OpenEMS Community forum](https://community.openems.io). 
-
-### OpenEMS in »Local Energy Management«
-
-![alt text](./doc/modules/ROOT/assets/images/local-energy-management.png "Local Energy Management")
-
-### OpenEMS in »Areal Energy Management«
-
-![alt text](./doc/modules/ROOT/assets/images/areal-energy-management.png "Areal Energy Management")
-
-## OpenEMS IoT stack
-
-The OpenEMS 'Internet of Things' stack contains three main components:
-
- * **OpenEMS Edge** runs on site, communicates with devices and services, collects data and executes control algorithms
- * **OpenEMS UI** is the real-time user interface for web browsers and smartphones
- * **OpenEMS Backend** runs on a (cloud) server, connects the decentralized Edge systems and provides aggregation, monitoring and control via internet
-
-## Features
-
-The OpenEMS software architecture was designed to leverage some features that are required by a modern and flexible Energy Management System:
-
- * Fast, PLC-like control of devices
- * Easily extendable due to the use of modern programming languages and modular architecture
- * Reusable, device independent control algorithms due to clear device abstraction
- * Wide range of supported devices and protocols
-
-## OpenEMS UI Screenshots
-
-![alt text](./doc/modules/ROOT/assets/images/ui-live.png "OpenEMS UI Live View")
-![alt text](./doc/modules/ROOT/assets/images/ui-history.png "OpenEMS UI History View")
-
-## System architecture
-
-OpenEMS is generally used in combination with external hardware and software components
-(the exception is a simulated development environment - see [Getting Started](https://openems.github.io/openems.io/openems/latest/gettingstarted.html)). As a brief overview, this is how OpenEMS is used in production setups:
-![alt text](./doc/modules/ROOT/assets/images/system-architecture.png "OpenEMS System Architecture")
-
-## Getting Started
-
-* Open up a [Live-Demo on Gitpod](https://gitpod.io/#https://github.com/OpenEMS/openems)
-* Follow the [Getting Started](https://openems.github.io/openems.io/openems/latest/gettingstarted.html) guide to setup OpenEMS on your own computer
-
-## Documentation
-
-* [Latest version of documentation](https://openems.github.io/openems.io/openems/latest/introduction.html)
-* [Javadoc](https://openems.github.io/openems.io/javadoc/)
-
-## Open Source philosophy
-
-The OpenEMS project is driven by the [OpenEMS Association e.V.](https://openems.io/association), a network of users, vendors and scientific institutions from all kinds of areas like hardware manufacturers, software companies, grid operators and more. They share the common target of developing a free and open-source platform for energy management, that supports the 100 % energy transition.
-
-We are inviting third parties to use OpenEMS for their own projects and are glad to support them with their first steps. In any case if you are interested in OpenEMS we would be glad to hear from you in the [OpenEMS Community forum](https://community.openems.io).
-
-OpenEMS development was started by [FENECON GmbH](https://www.fenecon.de), a German company specialized in manufacturing and project development of energy storage systems. It is the software stack behind [FEMS - FENECON Energy Management System](https://fenecon.de/page/fems) and widely used in private, commercial and industrial applications.
-
-OpenEMS is funded by several federal and EU funding projects. If you are a developer and you would like to get hired by one of the partner companies or universities for working on OpenEMS, please send your motivation letter to info@openems.io.
-
-## Scientific Research
-
-If you use OpenEMS in your scientific research, please use our Zenodo Digital Object Identifier (DOI) as reference:
-
-[![Cite via Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.4440884.svg)](https://doi.org/10.5281/zenodo.4440883)
-
-## License
-
-* OpenEMS Edge 
-* OpenEMS Backend
-
-Copyright (C) 2016-2022 OpenEMS Association e.V.
-
-This product includes software developed at FENECON GmbH: you can
-redistribute it and/or modify it under the terms of the [Eclipse Public License version 2.0](LICENSE-EPL-2.0). 
-
- * OpenEMS UI
-
-Copyright (C) 2016-2022 OpenEMS Association e.V.
-
-This product includes software developed at FENECON GmbH: you can
-redistribute it and/or modify it under the terms of the [GNU Affero General Public License version 3](LICENSE-AGPL-3.0).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a href="https://github.com/OpenEMS/openems/actions/workflows/build.yml"><img src="https://github.com/OpenEMS/openems/actions/workflows/build.yml/badge.svg" alt="构建状态" style="max-width: 100%;"></a>
+<a href="https://gitpod.io/#https://github.com/OpenEMS/openems/tree/main" rel="nofollow"><img src="https://camo.githubusercontent.com/849d0db05f2593d8805f60eb2448f6bb2559bf1d5ba9247c4a0603c3dfb398bc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476974706f642d6c6976652d2d64656d6f2d626c75653f6c6f676f3d676974706f64" alt="Gitpod 现场演示" data-canonical-src="https://img.shields.io/badge/Gitpod-live--demo-blue?logo=gitpod" style="max-width: 100%;"></a>
+<a href="https://doi.org/10.5281/zenodo.4440883" rel="nofollow"><img src="https://camo.githubusercontent.com/77eb05561c7d28f7acae329eaafbce01e3a6bb986ecac773a922fea522cb76b0/68747470733a2f2f7a656e6f646f2e6f72672f62616467652f444f492f31302e353238312f7a656e6f646f2e343434303838342e737667" alt="引用来自Zenodo" data-canonical-src="https://zenodo.org/badge/DOI/10.5281/zenodo.4440884.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 align="center" tabindex="-1" class="heading-element" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/OpenEMS/openems/blob/develop/doc/modules/ROOT/assets/images/OpenEMS-Logo.png"><img src="/OpenEMS/openems/raw/develop/doc/modules/ROOT/assets/images/OpenEMS-Logo.png" alt="Feneco - OpenEMS 徽标" width="200" style="max-width: 100%;"></a>
+  <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源能源管理系统
+</font></font></h1><a id="user-content-----open-source-energy-management-system" class="anchor" aria-label="永久链接：开源能源管理系统
+" href="#----open-source-energy-management-system"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS - 开源能源管理系统 - 是一个用于能源管理应用的模块化平台。</font><font style="vertical-align: inherit;">它是围绕监测、控制和集成能源存储与可再生能源以及电动汽车充电站、热泵、电解槽、分时电价等补充设备和服务的要求而开发的。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您计划在自己的项目中使用 OpenEMS，请考虑加入</font></font><a href="https://openems.io/association" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS Association eV</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这是一个由大学、硬件制造商、软件公司以及商业和私人所有者组成的网络，并在</font></font><a href="https://community.openems.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 社区论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中取得联系。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 应用于“本地能源管理”</font></font></h3><a id="user-content-openems-in-local-energy-management" class="anchor" aria-label="永久链接：“本地能源管理”中的 OpenEMS" href="#openems-in-local-energy-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/OpenEMS/openems/blob/develop/doc/modules/ROOT/assets/images/local-energy-management.png"><img src="/OpenEMS/openems/raw/develop/doc/modules/ROOT/assets/images/local-energy-management.png" alt="替代文本" title="本地能源管理" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 应用于“区域能源管理”</font></font></h3><a id="user-content-openems-in-areal-energy-management" class="anchor" aria-label="永久链接：“区域能源管理”中的 OpenEMS" href="#openems-in-areal-energy-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/OpenEMS/openems/blob/develop/doc/modules/ROOT/assets/images/areal-energy-management.png"><img src="/OpenEMS/openems/raw/develop/doc/modules/ROOT/assets/images/areal-energy-management.png" alt="替代文本" title="面积能源管理" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 物联网堆栈</font></font></h2><a id="user-content-openems-iot-stack" class="anchor" aria-label="永久链接：OpenEMS IoT 堆栈" href="#openems-iot-stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS“物联网”堆栈包含三个主要组件：</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS Edge</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在现场运行，与设备和服务通信，收集数据并执行控制算法</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS UI</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是网络浏览器和智能手机的实时用户界面</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 后端</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行在（云）服务器上，连接分散的边缘系统并通过互联网提供聚合、监控和控制</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor" aria-label="永久链接：特点" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 软件架构旨在利用现代灵活的能源管理系统所需的一些功能：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对设备进行类似 PLC 的快速控制</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于使用现代编程语言和模块化架构，易于扩展</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于清晰的设备抽象，可重复使用、独立于设备的控制算法</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">广泛支持的设备和协议</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 用户界面截图</font></font></h2><a id="user-content-openems-ui-screenshots" class="anchor" aria-label="永久链接：OpenEMS UI 屏幕截图" href="#openems-ui-screenshots"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/OpenEMS/openems/blob/develop/doc/modules/ROOT/assets/images/ui-live.png"><img src="/OpenEMS/openems/raw/develop/doc/modules/ROOT/assets/images/ui-live.png" alt="替代文本" title="OpenEMS UI 实时视图" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/OpenEMS/openems/blob/develop/doc/modules/ROOT/assets/images/ui-history.png"><img src="/OpenEMS/openems/raw/develop/doc/modules/ROOT/assets/images/ui-history.png" alt="替代文本" title="OpenEMS UI 历史视图" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统架构</font></font></h2><a id="user-content-system-architecture" class="anchor" aria-label="永久链接：系统架构" href="#system-architecture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 通常与外部硬件和软件组件结合使用（模拟开发环境除外 - 请参阅</font></font><a href="https://openems.github.io/openems.io/openems/latest/gettingstarted.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">简要概述一下，OpenEMS 在生产设置中的使用方式：
+</font></font><a target="_blank" rel="noopener noreferrer" href="/OpenEMS/openems/blob/develop/doc/modules/ROOT/assets/images/system-architecture.png"><img src="/OpenEMS/openems/raw/develop/doc/modules/ROOT/assets/images/system-architecture.png" alt="替代文本" title="OpenEMS系统架构" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Gitpod 上打开</font></font><a href="https://gitpod.io/#https://github.com/OpenEMS/openems" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实时演示</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照</font></font><a href="https://openems.github.io/openems.io/openems/latest/gettingstarted.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南在您自己的计算机上设置 OpenEMS</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://openems.github.io/openems.io/openems/latest/introduction.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新版本的文档</font></font></a></li>
+<li><a href="https://openems.github.io/openems.io/javadoc/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java文档</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源理念</font></font></h2><a id="user-content-open-source-philosophy" class="anchor" aria-label="永久链接：开源哲学" href="#open-source-philosophy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://openems.io/association" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 项目由OpenEMS Association eV</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推动</font><font style="vertical-align: inherit;">，这是一个由来自硬件制造商、软件公司、电网运营商等各个领域的用户、供应商和科学机构组成的网络。</font><font style="vertical-align: inherit;">他们的共同目标是开发一个免费的开源能源管理平台，支持 100% 的能源转型。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们邀请第三方在他们自己的项目中使用 OpenEMS，并很高兴为他们的第一步提供支持。</font><font style="vertical-align: inherit;">无论如何，如果您对 OpenEMS 感兴趣，我们很高兴在</font></font><a href="https://community.openems.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 社区论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上收到您的来信。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.fenecon.de" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 的开发由FENECON GmbH</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启动</font><font style="vertical-align: inherit;">，FENECON GmbH 是一家专门从事储能系统制造和项目开发的德国公司。</font></font><a href="https://fenecon.de/page/fems" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是FEMS - FENECON 能源管理系统</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背后的软件堆栈</font><font style="vertical-align: inherit;">，广泛应用于私人、商业和工业应用。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 由多个联邦和欧盟资助项目资助。</font><font style="vertical-align: inherit;">如果您是一名开发人员，并且希望被合作伙伴公司或大学聘用从事 OpenEMS 工作，请将您的动机信发送至</font></font><a href="mailto:info@openems.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">info@openems.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">科学研究</font></font></h2><a id="user-content-scientific-research" class="anchor" aria-label="永久链接：科学研究" href="#scientific-research"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在科学研究中使用 OpenEMS，请使用我们的 Zenodo 数字对象标识符（DOI）作为参考：</font></font></p>
+<p dir="auto"><a href="https://doi.org/10.5281/zenodo.4440883" rel="nofollow"><img src="https://camo.githubusercontent.com/77eb05561c7d28f7acae329eaafbce01e3a6bb986ecac773a922fea522cb76b0/68747470733a2f2f7a656e6f646f2e6f72672f62616467652f444f492f31302e353238312f7a656e6f646f2e343434303838342e737667" alt="引用来自Zenodo" data-canonical-src="https://zenodo.org/badge/DOI/10.5281/zenodo.4440884.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 边缘</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenEMS 后端</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有 (C) 2016-2022 OpenEMS 协会 eV</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本产品包含 FENECON GmbH 开发的软件：您可以根据</font></font><a href="/OpenEMS/openems/blob/develop/LICENSE-EPL-2.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eclipse 公共许可证版本 2.0</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的条款重新分发和/或修改它。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放式EMS用户界面</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有 (C) 2016-2022 OpenEMS 协会 eV</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本产品包含 FENECON GmbH 开发的软件：您可以根据</font></font><a href="/OpenEMS/openems/blob/develop/LICENSE-AGPL-3.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GNU Affero 通用公共许可证版本 3 的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">条款重新分发和/或修改它。</font></font></p>
+</article></div>
